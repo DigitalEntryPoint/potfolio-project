@@ -1,0 +1,53 @@
+.newsletter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #cfd;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 1px dashed #356e35;
+}
+
+.newsletter-container h2 {
+    margin: 0;
+    letter-spacing: 20px;
+    color: #005200;
+}
+
+.newsletter-container input {
+    padding: 10px;
+}
+
+.newsletter-container::after {}
+
+.newsletter-container input[type=email] {
+    border: 1px solid #6ed071;
+    flex: 1;
+}
+
+.newsletter-container input[type=button] {
+    font-weight: 600;
+    background-color: #013851;
+    color: #fff;
+    border: none;
+    flex: .25;
+    cursor: pointer;
+    transition: .3s all;
+    border: 1px solid transparent;
+}
+
+.newsletter-container input[type=button]:hover {
+    /* box-sizing: border-box; */
+    /* box-shadow: 0 13px 15px #005200; */
+    background-color: #E4DC7E;
+    border: 1px solid #013851;
+    color: #013851;
+}
+
+.input-cotainer {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
